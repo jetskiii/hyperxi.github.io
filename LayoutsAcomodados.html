@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Document </title>
+	<style>
+		.estatico{
+			position:static;
+			border: 2px solid black;
+			background-color: #cccccc;
+			left: 10px;
+			top: 10px;
+			height: 30px;
+			width: 300px;
+			margin-bottom: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			}
+		
+		
+		.relativo{
+			position: relative;
+			top: -20px;
+			left: 20px;
+			width: 400px;
+			height: 450px;
+			background-color: black;
+			color: white;
+		}
+		
+		
+		
+		
+		.fixed{
+			position: fixed;
+			bottom: 0px;
+			right: 0px;
+			width: 1962px;
+			height: 70px;
+			border: 2px solid black;
+			background-color: red;
+    		margin-right: auto;
+		}
+		
+		
+		.absoluto{
+    		position: absolute;
+    		bottom: 420px;
+    		right: 40px;
+    		border: 2px solid black;
+    		width: 400px;
+    		height: 450px;
+    		background-color: black;
+            color: white;
+
+		}
+		a:hover{
+			background-color: blue;
+
+
+		}
+		
+        
+		
+	</style>
+</head>
+<body bgcolor="gray">
+	<h1 class="estatico"> MIPAGINAWEB</h1>
+	<hr>
+	<div class="estatico"> 
+		<a href="">Informacion</a>
+		<a href="">Genero</a>
+		<a href="">Consolas</a>
+	</div>
+	<div class="relativo"> Ejemplo de DIV Relativo </div>
+	<div class="absoluto"> Ejemplo de DIV absoluto</div>
+	<div class="fixed"> Ejemplo de un DIV fixed </div>
+
+	
+</body> 
+</html>
